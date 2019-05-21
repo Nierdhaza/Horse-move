@@ -1,0 +1,31 @@
+#field {
+    width: 320px;
+    height: 320px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+.chess-block{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+ #field::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.bg-black {
+    background-color: rgb(14, 10, 10);
+}
+
+.green {
+    background-color:green;
+}
+
+.active {
+    background-color: yellow;    
+}
